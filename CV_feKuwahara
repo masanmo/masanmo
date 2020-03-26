@@ -10,7 +10,7 @@ using namespace cv;
 
 int main()
 {
-	string str = "D:\\Users\\mauro\\Documents\\ITCelaya\\Docencia\\docs\\API\\resources\\";
+	string str = "MyPath";
 	Mat img = imread(str + "Lena.bmp", 0);
 	if (img.empty())
 		return -1;
