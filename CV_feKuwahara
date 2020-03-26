@@ -1,0 +1,25 @@
+#include <iostream>
+#include <math.h>
+
+#include <opencv2/core.hpp>
+#include <opencv2/highgui.hpp>
+#include <opencv2/imgproc.hpp>
+
+using namespace std;
+using namespace cv;
+
+int main()
+{
+	string str = "D:\\Users\\mauro\\Documents\\ITCelaya\\Docencia\\docs\\API\\resources\\";
+	Mat img = imread(str + "Lena.bmp", 0);
+	if (img.empty())
+		return -1;
+	namedWindow("Original", WINDOW_AUTOSIZE);
+	imshow("Original", img);
+  
+  
+
+	/*--- END OF PROGRAM ---*/
+	waitKey(0);
+	return 0;
+}
