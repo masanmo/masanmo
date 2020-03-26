@@ -18,7 +18,7 @@ int main()
 	imshow("Original", img);
   
   
-
+	/*--Comentario de prueba 1--*/
 	/*--- END OF PROGRAM ---*/
 	waitKey(0);
 	return 0;
